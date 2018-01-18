@@ -41,6 +41,7 @@ body {
 }
 
 div {
+  display: inline-block;
   padding: 1rem;
 }
 
@@ -64,3 +65,66 @@ div {
 .btn:hover {
   background-color: #000;
 }
+
+@media only screen and (min-width: 25em) {
+
+  }
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+.content {
+    text-align: left;
+    width: 50%;
+    padding: 2rem 1rem;
+    margin-right: 3rem;
+    vertical-align: middle;
+  }
+
+.img {
+    display: inline-block;
+    width: 40%;
+    vertical-align: middle;
+    padding: 0;
+  }
+
+  }
+
+  @media only screen and (min-width: 60em) {
+
+    html {
+      font-size: 120%;
+      line-height: 1.5;
+    }
+
+  .content {
+    text-align: left;
+    width: 48%;
+    padding: 2rem 1rem;
+    margin-right: .5rem;
+    vertical-align: middle;
+  }
+
+  .img {
+    display: inline-block;
+    width: 50%;
+    padding: 2rem 1rem;
+  }
+
+  @media only screen and (min-width: 90em) {
+
+    html {
+      font-size: 130%;
+    }
+
+    .img {
+      display: inline-block;
+      width: 40%;
+      padding: 2rem 1rem;
+    }
+
+    }
